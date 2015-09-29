@@ -5,9 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/LumberjackLogger.svg?style=flat)](http://cocoapods.org/pods/LumberjackLogger)
 [![Platform](https://img.shields.io/cocoapods/p/LumberjackLogger.svg?style=flat)](http://cocoapods.org/pods/LumberjackLogger)
 
+A CocoaLumberjack helper class set to simplify the usage of CocoaLumberjack.
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod `install from the Example directory first.
 
 ## Requirements
 
@@ -17,12 +19,16 @@ LumberjackLogger is available through [CocoaPods](http://cocoapods.org). To inst
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LumberjackLogger"
+pod 'LumberjackLogger', :git => 'https://github.com/jiakai-lian/LumberjackLogger.git'
 ```
+
+## Todo
+- add a customized log file manager to send out log files by email or
+   just upload to a server (possibly compressed)
 
 ## Author
 
-jiakailian, jiakai.lian@gmail.com
+Jiakai Lian, jiakai.lian@gmail.com
 
 ## License
 
