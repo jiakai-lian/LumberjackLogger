@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+
+target 'LumberjackLogger_Example', :exclusive => true do
+  pod "LumberjackLogger", :path => "../"
+end
+
+target 'LumberjackLogger_Tests', :exclusive => true do
+  pod "LumberjackLogger", :path => "../"
+
+  pod 'Kiwi'
+end

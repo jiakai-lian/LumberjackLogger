@@ -1,0 +1,27 @@
+PODS:
+  - CocoaLumberjack (2.0.1):
+    - CocoaLumberjack/Default (= 2.0.1)
+    - CocoaLumberjack/Extensions (= 2.0.1)
+  - CocoaLumberjack/Core (2.0.1)
+  - CocoaLumberjack/Default (2.0.1):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.1):
+    - CocoaLumberjack/Default
+  - Kiwi (2.4.0)
+  - LumberjackLogger (0.1.0):
+    - CocoaLumberjack (~> 2.0.1)
+
+DEPENDENCIES:
+  - Kiwi
+  - LumberjackLogger (from `../`)
+
+EXTERNAL SOURCES:
+  LumberjackLogger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 019d1361244274a6138c788c6cb80baabc13fb8f
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  LumberjackLogger: a01c2fbfe3e9b09b59b4197b81485cdaa7276ecb
+
+COCOAPODS: 0.37.1
