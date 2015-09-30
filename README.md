@@ -7,17 +7,19 @@
 
 A CocoaLumberjack helper class set to simplify the usage of [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack).
 
-## Usage
+**No initialization code needed.**
 
-To run the example project, clone the repo, and run `pod `install from the Example directory first.
-
-By importing the LumberjackLogger.h at the prefix header file, you should able to use all the following log levels as you want.
+All you need to do is importing the **LumberjackLogger.h** at the prefix header file, you should able to use all the following log levels in your code.
 
 -   DDLogError
 -   DDLogWarn
 -   DDLogInfo
 -   DDLogDebug
 -   DDLogVerbose
+
+## Usage
+
+To run the example project, clone the repo, and run `pod `install from the Example directory first.
 
 ## Requirements
 
