@@ -22,6 +22,6 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 static const DDLogLevel ddLogLevel = DDLogLevelWarn;
 #endif
 
-@interface LumberjackLogger : NSObject <DDLogFormatter>
+@interface LumberjackLogger : NSObject
 
 @end
