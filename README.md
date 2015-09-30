@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/LumberjackLogger.svg?style=flat)](http://cocoapods.org/pods/LumberjackLogger)
 [![Platform](https://img.shields.io/cocoapods/p/LumberjackLogger.svg?style=flat)](http://cocoapods.org/pods/LumberjackLogger)
 
-A CocoaLumberjack helper class set to simplify the usage of CocoaLumberjack.
+A CocoaLumberjack helper class set to simplify the usage of [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack).
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod `install from the Example directory first.
+
+By importing the LumberjackLogger.h at the prefix header file, you should able to use all the following log levels as you want.
+
+-   DDLogError
+-   DDLogWarn
+-   DDLogInfo
+-   DDLogDebug
+-   DDLogVerbose
 
 ## Requirements
 
