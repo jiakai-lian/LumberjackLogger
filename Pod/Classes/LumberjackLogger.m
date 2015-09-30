@@ -92,7 +92,7 @@ static NSString * kDateTimeString = @"yyyy/MM/dd HH:mm:ss:SSS";
         // Multi-threaded mode.
         // NSDateFormatter is NOT thread-safe.
         
-        NSString *key = @"MyCustomFormatter_NSDateFormatter";
+        NSString *key = [NSStringFromClass([self class]) stringByAppendingString:NSStringFromClass([NSDateFormatter class])] ;
         
         NSMutableDictionary *threadDictionary = [[NSThread currentThread] threadDictionary];
         NSDateFormatter *dateFormatter = [threadDictionary objectForKey:key];
