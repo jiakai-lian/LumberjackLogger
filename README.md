@@ -7,8 +7,9 @@
 
 A CocoaLumberjack helper class set to simplify the usage of [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack).
 
-**#No initialization code needed.**
-Just add this pod into your pod file,and all done.
+##**No initialization code needed.**
+
+Just add this pod into your pod file,and that's all you need to do.
 
 All you need to do is importing the **LumberjackLogger.h** at the prefix header file, you should able to use all the following log levels in your code.
 
